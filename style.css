@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(70, 68, 68);
+}
+.maincontainer{
+
+    width: 500vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    margin: auto;
+}
+.frontpage{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.frontimg{
+    margin: auto;
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+    .frontimg1{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .frontimg2{
+        position: absolute;
+        width: 80%;    
+        left: 10%;    
+        top: 40%;
+        height: 15%;
+    }
+    .frontimg3{
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 58%;
+        height: 7%;
+    }
+.imgholder{
+    height: 60%; 
+    position: relative;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px ;
+}
+        .bgimg{
+            position: relative;
+            border-radius: 10px 10px 0px 0px ;
+            width: 100%; 
+            height: 100%; 
+        }
+        .h1img{
+            position: absolute;
+            top: 5%;
+            left:15%;
+            width: 70%;
+            height: 10%;
+        }
+        .h1img2{
+            position: absolute;
+            top: 7%;
+            left: 10%;
+            width: 80%;
+            height: 8%;
+        }
+.textholder{
+    background-image: url(/Assets/bg.png);
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    height: 40%;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+    p{
+        width: 90%;
+        height: 60%;
+        font-size: smaller;
+        overflow: auto;
+        text-align: center;
+    }
+    .timeimg{
+        position: absolute;
+        height: 40%;
+        bottom: 0%;
+        width: 80%;
+    }

@@ -102,7 +102,7 @@ body{
             height: 8%;
         }
 .textholder{
-    background-image: url(/Assets/bg.png);
+    background-image: url(./Assets/bg.png);
     border-radius: 0px 0px 10px 10px;
     position: relative;
     height: 40%;

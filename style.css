@@ -2,19 +2,20 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(70, 68, 68);
-    overflow-y: hidden;
 }
 .maincontainer{
-    
-    width: 500vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    margin: 0;
-    padding: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 .container{
     width: 100vw;
@@ -23,7 +24,6 @@ body{
     margin: 0;
     padding: 0;
     min-width: 100vw;
-
 }
 .frontpage{
     width: 100vw;
